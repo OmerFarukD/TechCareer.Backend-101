@@ -12,9 +12,10 @@
 public class Product
 {
     private double _price;
+   
     private int _stock;
-
     public string Name { get; set; }
+
     public double Price 
     {
         get { return _price; }
@@ -25,8 +26,6 @@ public class Product
         get => _stock;
         set => _stock = value + 10; 
     }
-
-
     public override string ToString()
     {
         return $"Adı : {Name}, Değeri : {Price}, Stok :{Stock}";
