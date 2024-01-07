@@ -33,4 +33,5 @@ public class ProductMsSqlRepository : IProductRepository
         Console.WriteLine("Ürünler tablosunda güncellendi: (MsSql)");
         Console.WriteLine(product);
     }
+
 }
